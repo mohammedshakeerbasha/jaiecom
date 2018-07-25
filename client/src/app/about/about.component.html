@@ -1,0 +1,412 @@
+<body style="background-color: rgb(243, 243, 244)">
+ 
+<div class="container" >
+    
+        <form [formGroup] = "userform" (ngSubmit) = "addContacts(userform)">
+      
+        <p style="border-style:inset;padding:20px;background-color:#ffff;border-color:#ffff;width:100%;margin-top:-40px;">  
+            <input type="submit" class="btn btn btn-success" style="margin-left: 80%" [disabled]="!userform.valid || validataCountry == 1" value = "Submit">
+        </p>
+                <div class="row"> 
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
+                            <div class="panel panel-primary">
+                                <div class=" panel-heading" style="background-color: lightgray">Country Data </div>
+                                <div class="panel-body">
+                                        <div class="row">
+                                     
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <label>Country Name</label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                   <select class="form-control" id="country_name" (ngModelChange)="onChangeObj($event)"  [(ngModel)]="selectedcountries"  [ngModelOptions]="{standalone: true}">
+                                                    <option *ngFor="let country of countries" [ngValue]="country"  >{{country.name}}</option>                                                    
+                                                   </select>  
+                                                   <div *ngIf="validataCountry == 1" style="color: darkred;font-size:11px"><b>{{ errorMessage }} </b>  </div>
+                                                   <input type="hidden" name="country_name"   formControlName="country_name"  [(ngModel)]="selectedcountries.name">
+                                                   
+                                                   <input type="hidden" name="a12" formControlName="a12"   [(ngModel)]="selectedcountries.languages">
+                                                </div>
+                                            </div>
+                                    <br >
+                                     <div class="row">
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                <label>Short Code</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                <input type="text"  formControlName="short_code" readonly="" class="form-control" [(ngModel)]="selectedcountries.alpha2" name="short_code">
+                                            </div>
+                                    </div>
+                                    <br>
+                                   <div class="row">
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                <label>Country Code</label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                    <input type="text" readonly=""  formControlName="country_code" [(ngModel)]="selectedcountries.countryCallingCodes"  class="form-control" name="country_code">
+                                            </div>
+                                    </div>
+                                    <br>
+
+                              
+                                    <div class="row">
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                <label>Currency</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                <input type="text"   formControlName="currency"  name="currency" class="form-control" required>
+                                            </div> 
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                <label>Currency Code</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <input type="text"  readonly="" formControlName="currencycode"   [(ngModel)]="selectedcountries.emoji"  name="currencycode" class="form-control">
+                                            </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                <label>Currency Sign</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                <input type="text"  formControlName="currencysign"  [(ngModel)]="selectedcountries.alpha3" name="currencysign" class="form-control">
+                                            </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                <label>Default Currency Rate</label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                            
+                                                <input type="text"  formControlName="rate"  name="rate" class="form-control"> 
+                                            </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12">
+                                    <div class="panel panel-primary">
+                                        <div class=" panel-heading" style="background-color: lightgray">Vat Settings </div>
+                                        <div class="panel-body">
+                                                <div class="row">
+                                                        <div class="col-sm-8 col-lg-8 col-md-8 col-xs-12">
+                                                            <label>Vat Status</label>
+                                                        </div>
+                                                        <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12 ">
+                                                                <label class="switch">
+                                                                        <input type="checkbox"  [(ngModel)]="test3" formControlName="a19" >
+                                                                        <span class="slider round"></span>
+                                                                      </label>
+                                                        </div>
+                                                        <div  *ngIf="test3">
+
+                                                                <div class="col-sm-8 col-lg-8 col-md-8 col-xs-12">
+                                                                        <label>Franchise can add vat</label>
+                                                                    </div>
+                                                                <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12 " >
+                                                                        <label class="switch">
+                                                                                <input type="checkbox" formControlName="a20"  [(ngModel)]="test7">
+                                                                                <span class="slider round"></span>
+                                                                              </label>
+                                                                </div>
+                                                                <div class="col-sm-8 col-lg-8 col-md-8 col-xs-12">
+                                                                        <label>Store can add vat</label>
+                                                                    </div>
+                                                                <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12 "  >
+                                                                        <label class="switch">
+                                                                                <input type="checkbox" formControlName="a21" [(ngModel)]="test8" >
+                                                                                <span class="slider round"></span>
+                                                                              </label>
+                                                                </div>
+                                                                <div class="col-sm-8 col-lg-8 col-md-8 col-xs-12">
+                                                                        <label>VAT</label>
+                                                                    </div>
+                                                                <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12 "  >
+                                                                        <input type="text" formControlName="vat"     name="vat" class="form-control">
+                                          
+                                                                </div>
+
+                                                        </div>
+                                                       
+                                                    </div>
+                                            <br >
+                                           
+        
+                                      
+                                          
+                                          
+                                             
+                                         
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                        </div>
+                    
+                            <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
+                                <div class="panel panel-primary">
+                                    <div class="panel panel-heading" style="background-color: lightgray">Country Settings </div>
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                <label>Minimum Phone No.length </label>
+                                            </div>
+                                            <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                <div class=" input-group">
+                                                    <input type="number" class="form-control"  formControlName="a1" name="a1">
+                                                    <span class="input-group-addon"> 
+                                                            <span data-tooltip="Enter Minimum Phone No.Length" data-tooltip-position="bottom"><i class="glyphicon glyphicon-question-sign"></i></span>
+                                                            </span> 
+                                                        
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br >
+                                        <div class="row">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <label>Maximum Phone No.length </label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <div class=" input-group">
+                                                        <input type="number" class="form-control" formControlName="a2" name="a2" >
+                                                        <span class="input-group-addon"> 
+                                                                <span data-tooltip="Enter Maximum Phone No.Length" data-tooltip-position="bottom"><i class="glyphicon glyphicon-question-sign"></i></span>
+                                                                </span> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <br> 
+                                        <div  class="row" *ngIf="test2">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <label>Referal Bonus To User </label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <div class=" input-group">
+                                                        <div class="input-group-addon">
+                                                            <span>{{selectedcountries.emoji}}</span>
+                                          
+                                                        </div>
+                                                        <input type="number" class="form-control" formControlName="a3" name="a3" >
+                                                        <span class="input-group-addon"> 
+                                                                <span data-tooltip="Referal Bonus To User " data-tooltip-position="bottom"><i class="glyphicon glyphicon-question-sign"></i></span>
+                                                                </span> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <br>
+                                        <div class="row" *ngIf="test2">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <label>Referal Bonus To User Friend </label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <div class=" input-group">
+                                                        <div class="input-group-addon">
+                                                                <span>{{selectedcountries.emoji}}</span></div>
+                                                        <input type="number" class="form-control" formControlName="a4" name="a4">
+                                                        <span class="input-group-addon"> 
+                                                                <span data-tooltip="Referal Bonus To User Friend  " data-tooltip-position="bottom"><i class="glyphicon glyphicon-question-sign"></i></span>
+                                                                </span> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <br>
+                                        <div class="row" *ngIf="test2">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <label>No of User For Referral </label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <div class=" input-group">
+                                                        <input type="number" class="form-control"  formControlName="a5" name="a5" >
+                                                        <span class="input-group-addon"> 
+                                                                <span data-tooltip="No of User For Referral" data-tooltip-position="bottom"><i class="glyphicon glyphicon-question-sign"></i></span>
+                                                                </span> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="row" *ngIf="test1">
+                                                    <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                        <label>Referral Bonus to Store</label>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                        <div class=" input-group">
+                                                            <div class="input-group-addon">
+                                                                    <span>{{selectedcountries.emoji}}</span></div>
+                                                            <input type="number" class="form-control" name="a6" formControlName="a6">
+                                                                <span class="input-group-addon"> 
+                                                                <span data-tooltip="No of User For Referral" data-tooltip-position="bottom"><i class="glyphicon glyphicon-question-sign"></i></span>
+                                                                </span> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        <br>
+                                        <div class="row" *ngIf="test1">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <label>Referral Bonus to Store's Friend</label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <div class=" input-group">
+                                                        <div class="input-group-addon">
+                                                                <span>{{selectedcountries.emoji}}</span></div>
+                                                        <input type="number" class="form-control" formControlName="a7" name="a7">
+                                                        <span class="input-group-addon"> 
+                                                                <span data-tooltip="Referral Bonus to Store's Friend" data-tooltip-position="bottom"><i class="glyphicon glyphicon-question-sign"></i></span>
+                                                                </span> 
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <br>
+                                        <div class="row" *ngIf="test1">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <label>No of User For Referral </label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <div class=" input-group">
+                                                        <input type="number" class="form-control" formControlName="a8" name="a8">
+                                                        <span class="input-group-addon"> 
+                                                                <span data-tooltip="No of User For Referral" data-tooltip-position="bottom"><i class="glyphicon glyphicon-question-sign"></i></span>
+                                                                </span> 
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <br>
+                                        <div class="row" *ngIf="test">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <label>Referral Bonus to Provider</label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <div class=" input-group">
+                                                        <div class="input-group-addon">
+                                                                <span>{{selectedcountries.emoji}}</span></div>
+                                                        <input type="number" class="form-control" formControlName="a9" name="a9" >
+                                                        <span class="input-group-addon"> 
+                                                                <span data-tooltip="Referral Bonus to Provider" data-tooltip-position="bottom"><i class="glyphicon glyphicon-question-sign"></i></span>
+                                                                </span>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <br>
+                                        <div class="row" *ngIf="test">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <label>Referral Bonus to Provider's Friend</label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <div class=" input-group">
+                                                        <div class="input-group-addon">
+                                                                <span>{{selectedcountries.emoji}}</span></div>
+                                                        <input type="number" class="form-control" formControlName="a10" name="a10">
+                                                        <span class="input-group-addon"> 
+                                                                <span data-tooltip="Referral Bonus to Provider's Friend" data-tooltip-position="bottom"><i class="glyphicon glyphicon-question-sign"></i></span>
+                                                                </span>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <br>
+                                        <div class="row" *ngIf="test">
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <label>No of User For Referral </label>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
+                                                    <div class=" input-group">
+                                                        <input type="number" class="form-control" formControlName="a11" name="a11" >
+                                                        <span class="input-group-addon"> 
+                                                                <span data-tooltip="No of User For Referral" data-tooltip-position="bottom"><i class="glyphicon glyphicon-question-sign"></i></span>
+                                                                </span>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+        
+                                <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
+                                    <div class="panel panel-primary">
+                                        <div class="panel panel-heading" style="background-color: lightgray">Country Settings </div>
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-sm-8 col-lg-8 col-md-8 col-xs-12">
+                                                    <label>Business in Country</label>
+                                                </div>
+                                                <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12 ">
+                                                        <label class="switch">
+                                                                <input type="checkbox" formControlName="a13" [(ngModel)]="test6"   >
+                                                                <span class="slider round"></span>
+                                                              </label>
+                                                </div>
+                                            </div>
+                                            <br >
+                                            <div class="row">
+                                                    <div class="col-sm-8 col-lg-8 col-md-8 col-xs-12">
+                                                        <label>Distance Unit Mile</label>
+                                                    </div>
+                                                    <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
+                                                            <label class="switch">
+                                                                    <input type="checkbox" formControlName="a14" [(ngModel)]="test5"   >
+                                                                    <span class="slider round"></span>
+                                                                  </label>
+                                                    </div>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                    <div class="col-sm-8 col-lg-8 col-md-8 col-xs-12">
+                                                        <label>Ads Visible</label>
+                                                    </div>
+                                                    <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
+                                                            <label class="switch">
+                                                                    <input type="checkbox" [(ngModel)]="test4" formControlName="a15"  >
+                                                                    <span class="slider round"></span>
+                                                                  </label>
+                                                    </div>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                    <div class="col-sm-8 col-lg-8 col-md-8 col-xs-12">
+                                                        <label>Referral For User</label>
+                                                    </div>
+                                                    <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
+                                                        <label class="switch">
+                                                                <input type="checkbox"  [(ngModel)]="test2" formControlName="a16"  >
+                                                            <span class="slider round"></span>
+                                                          </label>
+                                                    </div> 
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                    <div class="col-sm-8 col-lg-8 col-md-8 col-xs-12">
+                                                        <label>Referral For Store</label>
+                                                    </div>
+                                                    <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
+                                                            <label class="switch">
+                                                                    <input type="checkbox"  [(ngModel)]="test1" formControlName="a17"  > 
+                                                                    <span class="slider round"></span>
+                                                                  </label>
+                                                    </div>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                    <div class="col-sm-8 col-lg-8 col-md-8 col-xs-12">
+                                                        <label>Referral For Provider</label>
+                                                    </div>
+                                                    <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12">
+                                                            <label class="switch">
+                                                                    <input type="checkbox"  [(ngModel)]="test" formControlName="a18"  > 
+                                                                    <span class="slider round"></span>
+                                                                  </label>
+                                                    </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            </form>
+                       </div>
+
+                    </body>
