@@ -9,6 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { EditComponent } from './edit/edit.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import{ServiceService } from './service.service';
+
 // import{ CategoryPipe } from './pipe'
 
 @NgModule({
@@ -28,7 +30,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
   Ng2SearchPipeModule
 
   ],
-  providers: [],
+  providers: [ServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

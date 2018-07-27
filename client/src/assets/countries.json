@@ -1,89 +1,54 @@
 [
   {
-    "alpha2": "PK",
-    "alpha3": "Rs",
+    "alpha2": "AC",
+    "alpha3": "",
     "countryCallingCodes": [
-      "PAK"
+      "+247"
     ],
     "currencies": [
-      "PKR"
+      "USD"
     ],
-    "emoji": "PKR",
-    "ioc": "PAK",
+    "emoji": "",
+    "ioc": "SHP",
     "languages": [
-      "assets/image/pakistan.jpg" 
+      "eng"
     ],
-    "name": "Pakistan",
-    "status": "assigned"
+    "name": "Ascension Island",
+	"img":"assets/img/Flag_of_Ascension_Island.svg"
   },
   {
-    "alpha2": "ZA",
-    "alpha3": "R",
+    "alpha2": "AD",
+    "alpha3": "AND",
     "countryCallingCodes": [
-      "ZAF"
+      "+376"
     ],
     "currencies": [
-      "ZAR"
+      "EUR"
     ],
-    "emoji": "ZAR",
-    "ioc": "RSA",
+    "emoji": "🇦🇩",
+    "ioc": "AND",
     "languages": [
-      "assets/image/southafrica.png" 
+      "cat"
     ],
-    "name": "South Africa",
-    "status": "assigned"
+    "name": "Andorra",
+    "img":"assets/img/flag-of-Andorra.png"
   },
-  {
-    "alpha2": "IN",
-    "alpha3": " INR",
-    "countryCallingCodes": [
-      "IND"
-    ],
-    "currencies": [
-      ""
-    ],
-    "emoji": "\u20B9",
-    "ioc": "IND",
-    "languages": [
-      "assets/image/india.gif" 
-    ],
-    "name": "India",
-    "status": "assigned"
-  },
-  {
-    "alpha2": "SA",
-    "alpha3": "SR",
-    "countryCallingCodes": [
-      "SAU"
-    ],
-    "currencies": [
-      "SAR"
-    ],
-    "emoji": "ر.س",
-    "ioc": "KSA",
-    "languages": [
-      "assets/image/saudi_arabia.gif"
-    ],
-    "name": "Saudi Arabia",
-    "status": "assigned"
-  },
-  
   {
     "alpha2": "AE",
-    "alpha3": "DH",
+    "alpha3": "ARE",
     "countryCallingCodes": [
-      "ARE"
+      "+971"
     ],
     "currencies": [
       "AED"
     ],
-    "emoji": "\u062f.\u0625",
+    "emoji": "$",
     "ioc": "UAE",
-    "languages": 
-      "assets/image/united_arab_emirates.gif"
-    ,
+    "languages": [
+      "ara"
+    ],
     "name": "United Arab Emirates",
-    "status": "assigned"
+	"img":"assets/img/flag-of-United-Arab-Emirates.png"
   },
   {
     "alpha2": "AF",
@@ -94,29 +59,121 @@
     "currencies": [
       "AFN"
     ],
-    "emoji": "AFN",
+    "emoji": "🇦🇫",
     "ioc": "AFG",
     "languages": [
-      "assets/image/afghanistan.png"
+      "pus"
     ],
     "name": "Afghanistan",
-    "status": "assigned"
+    "img":"assets/img/flag-of-Afghanistan.png"
+	
+  },
+  {
+    "alpha2": "AG",
+    "alpha3": "ATG",
+    "countryCallingCodes": [
+      "+1 268"
+    ],
+    "currencies": [
+      "XCD"
+    ],
+    "emoji": "🇦🇬",
+    "ioc": "ANT",
+    "languages": [
+      "eng"
+    ],
+    "name": "Antigua And Barbuda",
+    "img":"assets/img/Antigua_and_Barbuda.png"
+  },
+  {
+    "alpha2": "AL",
+    "alpha3": "ALB",
+    "countryCallingCodes": [
+      "+355"
+    ],
+    "currencies": [
+      "ALL"
+    ],
+    "emoji": "🇦🇱",
+    "ioc": "ALB",
+    "languages": [
+      "sqi"
+    ],
+    "name": "Albania",
+    "img":"assets/img/flag-of-Albania.png"
+  },
+  {
+    "alpha2": "AM",
+    "alpha3": "ARM",
+    "countryCallingCodes": [
+      "+374"
+    ],
+    "currencies": [
+      "AMD"
+    ],
+    "emoji": "🇦🇲",
+    "ioc": "ARM",
+    "languages": [
+      "hye",
+      "rus"
+    ],
+    "name": "Armenia",
+    "img":"assets/img/flag-of-Armenia.png"
   },
   
-   
   {
-    "alpha2": "AI",
-    "alpha3": "AFI",
-    "countryCallingCodes": [],
-    "currencies": [],
-    "ioc": "",
-    "languages": [
-      "assets/image/FrenchAfarandIssas.jpg"
+    "alpha2": "AO",
+    "alpha3": "AGO",
+    "countryCallingCodes": [
+      "+244"
     ],
-    "name": "French Afar and Issas",
-    "status": "deleted"
-  }, 
-   
+    "currencies": [
+      "AOA"
+    ],
+    "emoji": "🇦🇴",
+    "ioc": "ANG",
+    "languages": [
+      "por"
+    ],
+    "name": "Angola",
+    "img":"assets/img/flag-of-Angola.png"
+  },
+  
+  {
+    "alpha2": "AR",
+    "alpha3": "ARG",
+    "countryCallingCodes": [
+      "+54"
+    ],
+    "currencies": [
+      "ARS"
+    ],
+    "emoji": "🇦🇷",
+    "ioc": "ARG",
+    "languages": [
+      "spa"
+    ],
+    "name": "Argentina",
+    "img":"assets/img/flag-of-Argentina.png"
+  },
+  
+  {
+    "alpha2": "AT",
+    "alpha3": "AUT",
+    "countryCallingCodes": [
+      "+43"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇦🇹",
+    "ioc": "AUT",
+    "languages": [
+      "deu"
+    ],
+    "name": "Austria",
+    "img":"assets/img/flag-of-Austria.png"
+  },
   {
     "alpha2": "AU",
     "alpha3": "AUS",
@@ -126,13 +183,67 @@
     "currencies": [
       "AUD"
     ],
-    "emoji": "$",
+    "emoji": "🇦🇺",
     "ioc": "AUS",
     "languages": [
-      "assets/image/australia.gif"
+      "eng"
     ],
     "name": "Australia",
-    "status": "assigned"
+    "img":"assets/img/flag-of-Australia.png"
+  },
+  
+  {
+    "alpha2": "AZ",
+    "alpha3": "AZE",
+    "countryCallingCodes": [
+      "+994"
+    ],
+    "currencies": [
+      "AZN"
+    ],
+    "emoji": "🇦🇿",
+    "ioc": "AZE",
+    "languages": [
+      "aze"
+    ],
+    "name": "Azerbaijan",
+    "img":"assets/img/flag-of-Azerbaijan.png"
+  },
+  {
+    "alpha2": "BA",
+    "alpha3": "BIH",
+    "countryCallingCodes": [
+      "+387"
+    ],
+    "currencies": [
+      "BAM"
+    ],
+    "emoji": "🇧🇦",
+    "ioc": "BIH",
+    "languages": [
+      "bos",
+      "cre",
+      "srp"
+    ],
+    "name": "Bosnia & Herzegovina",
+    "img":"assets/img/flag-of-Bosnia-Herzegovina.png"
+  },
+  {
+    "alpha2": "BB",
+    "alpha3": "BRB",
+    "countryCallingCodes": [
+      "+1 246"
+    ],
+    "currencies": [
+      "BBD"
+    ],
+    "emoji": "🇧🇧",
+    "ioc": "BAR",
+    "languages": [
+      "eng"
+    ],
+    "name": "Barbados",
+    "img":"assets/img/flag-of-Barbados.png"
   },
   {
     "alpha2": "BD",
@@ -143,13 +254,66 @@
     "currencies": [
       "BDT"
     ],
-    "emoji": "tk",
+    "emoji": "🇧🇩",
     "ioc": "BAN",
     "languages": [
-      "assets/image/bangladesh.jpg"
+      "ben"
     ],
     "name": "Bangladesh",
-    "status": "assigned"
+    "img":"assets/img/bangladesh.jpg"
+  },
+  {
+    "alpha2": "BE",
+    "alpha3": "BEL",
+    "countryCallingCodes": [
+      "+32"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇧🇪",
+    "ioc": "BEL",
+    "languages": [
+      "nld",
+      "fra",
+      "deu"
+    ],
+    "name": "Belgium",
+    "img":"assets/img/flag-of-Belgium.png"
+  },
+  {
+    "alpha2": "BF",
+    "alpha3": "BFA",
+    "countryCallingCodes": [
+      "+226"
+    ],
+    "currencies": [
+      "XOF"
+    ],
+    "emoji": "🇧🇫",
+    "ioc": "BUR",
+    "languages": [
+      "fra"
+    ],
+    "name": "Burkina Faso",
+    "img":"assets/img/flag-of-Burkina-Faso.png"
+  },
+  {
+    "alpha2": "BG",
+    "alpha3": "BGR",
+    "countryCallingCodes": [
+      "+359"
+    ],
+    "currencies": [
+      "BGN"
+    ],
+    "emoji": "🇧🇬",
+    "ioc": "BUL",
+    "languages": [
+      "bul"
+    ],
+    "name": "Bulgaria",
+    "img":"assets/img/flag-of-Bulgaria.png"
   },
   {
     "alpha2": "BH",
@@ -160,18 +324,2939 @@
     "currencies": [
       "BHD"
     ],
-    "emoji": "BD",
+    "emoji": "🇧🇭",
     "ioc": "BRN",
     "languages": [
-      "assets/image/bharain.png"
+      "ara"
     ],
     "name": "Bahrain",
-    "status": "assigned"
+    "img":"assets/img/flag-of-Bahrain.png"
+  },
+  {
+    "alpha2": "BI",
+    "alpha3": "BDI",
+    "countryCallingCodes": [
+      "+257"
+    ],
+    "currencies": [
+      "BIF"
+    ],
+    "emoji": "🇧🇮",
+    "ioc": "BDI",
+    "languages": [
+      "fra"
+    ],
+    "name": "Burundi",
+    "img":"assets/img/flag-of-Burundi.png"
+  },
+  {
+    "alpha2": "BJ",
+    "alpha3": "BEN",
+    "countryCallingCodes": [
+      "+229"
+    ],
+    "currencies": [
+      "XOF"
+    ],
+    "emoji": "🇧🇯",
+    "ioc": "BEN",
+    "languages": [
+      "fra"
+    ],
+    "name": "Benin",
+    "img":"assets/img/flag-of-Benin.png"
+  },
+ 
+  {
+    "alpha2": "BM",
+    "alpha3": "BMU",
+    "countryCallingCodes": [
+      "+1 441"
+    ],
+    "currencies": [
+      "BMD"
+    ],
+    "emoji": "🇧🇲",
+    "ioc": "BER",
+    "languages": [
+      "eng"
+    ],
+    "name": "Bermuda",
+    "img":"assets/img/flag-of-Bermuda.png"
+  },
+  
+  {
+    "alpha2": "BO",
+    "alpha3": "BOL",
+    "countryCallingCodes": [
+      "+591"
+    ],
+    "currencies": [
+      "BOB",
+      "BOV"
+    ],
+    "emoji": "🇧🇴",
+    "ioc": "BOL",
+    "languages": [
+      "spa",
+      "aym",
+      "que"
+    ],
+    "name": "Bolivia, Plurinational State Of",
+    "img":"assets/img/flag-of-Bolivia.png"
+  },
+  
+  {
+    "alpha2": "BR",
+    "alpha3": "BRA",
+    "countryCallingCodes": [
+      "+55"
+    ],
+    "currencies": [
+      "BRL"
+    ],
+    "emoji": "🇧🇷",
+    "ioc": "BRA",
+    "languages": [
+      "por"
+    ],
+    "name": "Brazil",
+    "img":"assets/img/flag-of-Brazil.png"
+  },
+  {
+    "alpha2": "BS",
+    "alpha3": "BHS",
+    "countryCallingCodes": [
+      "+1 242"
+    ],
+    "currencies": [
+      "BSD"
+    ],
+    "emoji": "🇧🇸",
+    "ioc": "BAH",
+    "languages": [
+      "eng"
+    ],
+    "name": "Bahamas",
+    "img":"assets/img/flag-of-Bahamas.png"
+  },
+  {
+    "alpha2": "BT",
+    "alpha3": "BTN",
+    "countryCallingCodes": [
+      "+975"
+    ],
+    "currencies": [
+      "INR",
+      "BTN"
+    ],
+    "emoji": "🇧🇹",
+    "ioc": "BHU",
+    "languages": [
+      "dzo"
+    ],
+    "name": "Bhutan",
+    "img":"assets/img/flag-of-Bhutan.png"
+  },
+ 
+  {
+    "alpha2": "BW",
+    "alpha3": "BWA",
+    "countryCallingCodes": [
+      "+267"
+    ],
+    "currencies": [
+      "BWP"
+    ],
+    "emoji": "🇧🇼",
+    "ioc": "BOT",
+    "languages": [
+      "eng",
+      "tsn"
+    ],
+    "name": "Botswana",
+    "img":"assets/img/flag-of-Botswana.png"
+  },
+  {
+    "alpha2": "BY",
+    "alpha3": "BLR",
+    "countryCallingCodes": [
+      "+375"
+    ],
+    "currencies": [
+      "BYR"
+    ],
+    "emoji": "🇧🇾",
+    "ioc": "BLR",
+    "languages": [
+      "bel",
+      "rus"
+    ],
+    "name": "Botswana",
+    "img":"assets/img/flag-of-Botswana.png"
+  },
+  
+  {
+    "alpha2": "BZ",
+    "alpha3": "BLZ",
+    "countryCallingCodes": [
+      "+501"
+    ],
+    "currencies": [
+      "BZD"
+    ],
+    "emoji": "🇧🇿",
+    "ioc": "BIZ",
+    "languages": [
+      "eng"
+    ],
+    "name": "Belize",
+    "img":"assets/img/flag-of-Belize.png"
+  },
+  {
+    "alpha2": "CA",
+    "alpha3": "CAN",
+    "countryCallingCodes": [
+      "+1"
+    ],
+    "currencies": [
+      "CAD"
+    ],
+    "emoji": "🇨🇦",
+    "ioc": "CAN",
+    "languages": [
+      "eng",
+      "fra"
+    ],
+    "name": "Canada",
+    "img":"assets/img/flag-of-Canada.png"
+  },
+ 
+  {
+    "alpha2": "CD",
+    "alpha3": "COD",
+    "countryCallingCodes": [
+      "+243"
+    ],
+    "currencies": [
+      "CDF"
+    ],
+    "emoji": "🇨🇩",
+    "ioc": "COD",
+    "languages": [
+      "fra",
+      "lin",
+      "kon",
+      "swa"
+    ],
+    "name": "Democratic Republic Of Congo",
+    "img":"assets/img/flag-of-Congo-Democratic-Republic-of.png"
+  },
+  {
+    "alpha2": "CF",
+    "alpha3": "CAF",
+    "countryCallingCodes": [
+      "+236"
+    ],
+    "currencies": [
+      "XAF"
+    ],
+    "emoji": "🇨🇫",
+    "ioc": "CAF",
+    "languages": [
+      "fra",
+      "sag"
+    ],
+    "name": "Central African Republic",
+    "img":"assets/img/flag-of-Central-African-Republic.png"
+  },
+  {
+    "alpha2": "CG",
+    "alpha3": "COG",
+    "countryCallingCodes": [
+      "+242"
+    ],
+    "currencies": [
+      "XAF"
+    ],
+    "emoji": "🇨🇬",
+    "ioc": "CGO",
+    "languages": [
+      "fra",
+      "lin"
+    ],
+    "name": "Republic Of Congo",
+    "img":"assets/img/flag-of-Congo-Democratic-Republic-of.png"
+  },
+  {
+    "alpha2": "CH",
+    "alpha3": "CHE",
+    "countryCallingCodes": [
+      "+41"
+    ],
+    "currencies": [
+      "CHF",
+      "CHE",
+      "CHW"
+    ],
+    "emoji": "🇨🇭",
+    "ioc": "SUI",
+    "languages": [
+      "deu",
+      "fra",
+      "ita",
+      "roh"
+    ],
+    "name": "Switzerland",
+    "img":"assets/img/flag-of-Switzerland.png"
+  },
+ 
+  {
+    "alpha2": "CL",
+    "alpha3": "CHL",
+    "countryCallingCodes": [
+      "+56"
+    ],
+    "currencies": [
+      "CLP",
+      "CLF"
+    ],
+    "emoji": "🇨🇱",
+    "ioc": "CHI",
+    "languages": [
+      "spa"
+    ],
+    "name": "Chile",
+    "img":"assets/img/flag-of-Chile.png"
+  },
+  {
+    "alpha2": "CM",
+    "alpha3": "CMR",
+    "countryCallingCodes": [
+      "+237"
+    ],
+    "currencies": [
+      "XAF"
+    ],
+    "emoji": "🇨🇲",
+    "ioc": "CMR",
+    "languages": [
+      "eng",
+      "fra"
+    ],
+    "name": "Cameroon",
+    "img":"assets/img/flag-of-Cameroon.png"
+  },
+  {
+    "alpha2": "CN",
+    "alpha3": "CHN",
+    "countryCallingCodes": [
+      "+86"
+    ],
+    "currencies": [
+      "CNY"
+    ],
+    "emoji": "🇨🇳",
+    "ioc": "CHN",
+    "languages": [
+      "zho"
+    ],
+    "name": "China",
+    "img":"assets/img/flag-of-China.png"
+  },
+  {
+    "alpha2": "CO",
+    "alpha3": "COL",
+    "countryCallingCodes": [
+      "+57"
+    ],
+    "currencies": [
+      "COP",
+      "COU"
+    ],
+    "emoji": "🇨🇴",
+    "ioc": "COL",
+    "languages": [
+      "spa"
+    ],
+    "name": "Colombia",
+    "img":"assets/img/flag-of-Colombia.png"
+  },
+  
+  {
+    "alpha2": "CR",
+    "alpha3": "CRI",
+    "countryCallingCodes": [
+      "+506"
+    ],
+    "currencies": [
+      "CRC"
+    ],
+    "emoji": "🇨🇷",
+    "ioc": "CRC",
+    "languages": [
+      "spa"
+    ],
+    "name": "Costa Rica",
+    "img":"assets/img/flag-of-Costa-Rica.png"
+  },
+  
+  {
+    "alpha2": "CU",
+    "alpha3": "CUB",
+    "countryCallingCodes": [
+      "+53"
+    ],
+    "currencies": [
+      "CUP",
+      "CUC"
+    ],
+    "emoji": "🇨🇺",
+    "ioc": "CUB",
+    "languages": [
+      "spa"
+    ],
+    "name": "Cuba",
+    "img":"assets/img/flag-of-Cuba.png"
+  },
+  {
+    "alpha2": "CV",
+    "alpha3": "CPV",
+    "countryCallingCodes": [
+      "+238"
+    ],
+    "currencies": [
+      "CVE"
+    ],
+    "emoji": "🇨🇻",
+    "ioc": "CPV",
+    "languages": [
+      "por"
+    ],
+    "name": "Cabo Verde",
+    "img":"assets/img/flag-of-Cabo-Verde.png"
+  },
+ 
+  {
+    "alpha2": "CY",
+    "alpha3": "CYP",
+    "countryCallingCodes": [
+      "+357"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇨🇾",
+    "ioc": "CYP",
+    "languages": [
+      "ell",
+      "tur"
+    ],
+    "name": "Cyprus",
+    "img":"assets/img/flag-of-Cyprus.png"
+  },
+  {
+    "alpha2": "CZ",
+    "alpha3": "CZE",
+    "countryCallingCodes": [
+      "+420"
+    ],
+    "currencies": [
+      "CZK"
+    ],
+    "emoji": "🇨🇿",
+    "ioc": "CZE",
+    "languages": [
+      "ces"
+    ],
+    "name": "Czech Republic",
+    "img":"assets/img/flag-of-Czech-Republic.png"
+  },
+  
+  {
+    "alpha2": "DE",
+    "alpha3": "DEU",
+    "countryCallingCodes": [
+      "+49"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇩🇪",
+    "ioc": "GER",
+    "languages": [
+      "deu"
+    ],
+    "name": "Germany",
+    "img":"assets/img/flag-of-Germany.png"
+  },
+  
+  {
+    "alpha2": "DJ",
+    "alpha3": "DJI",
+    "countryCallingCodes": [
+      "+253"
+    ],
+    "currencies": [
+      "DJF"
+    ],
+    "emoji": "🇩🇯",
+    "ioc": "DJI",
+    "languages": [
+      "ara",
+      "fra"
+    ],
+    "name": "Djibouti",
+    "img":"assets/img/flag-of-Djibouti.png"
+  },
+  {
+    "alpha2": "DK",
+    "alpha3": "DNK",
+    "countryCallingCodes": [
+      "+45"
+    ],
+    "currencies": [
+      "DKK"
+    ],
+    "emoji": "🇩🇰",
+    "ioc": "DEN",
+    "languages": [
+      "dan"
+    ],
+    "name": "Denmark",
+    "img":"assets/img/flag-of-Denmark.png"
+  },
+  {
+    "alpha2": "DM",
+    "alpha3": "DMA",
+    "countryCallingCodes": [
+      "+1 767"
+    ],
+    "currencies": [
+      "XCD"
+    ],
+    "emoji": "🇩🇲",
+    "ioc": "DMA",
+    "languages": [
+      "eng"
+    ],
+    "name": "Dominica",
+    "img":"assets/img/flag-of-Dominica.png"
+  },
+  {
+    "alpha2": "DO",
+    "alpha3": "DOM",
+    "countryCallingCodes": [
+      "+1 809",
+      "+1 829",
+      "+1 849"
+    ],
+    "currencies": [
+      "DOP"
+    ],
+    "emoji": "🇩🇴",
+    "ioc": "DOM",
+    "languages": [
+      "spa"
+    ],
+    "name": "Dominican Republic",
+    "img":"assets/img/flag-of-Dominican-Republic.png"
+  },
+  
+  {
+    "alpha2": "DZ",
+    "alpha3": "DZA",
+    "countryCallingCodes": [
+      "+213"
+    ],
+    "currencies": [
+      "DZD"
+    ],
+    "emoji": "🇩🇿",
+    "ioc": "ALG",
+    "languages": [
+      "ara"
+    ],
+    "name": "Algeria",
+    "img":"assets/img/Algeria.png"
+  },
+  
+  {
+    "alpha2": "EC",
+    "alpha3": "ECU",
+    "countryCallingCodes": [
+      "+593"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "emoji": "🇪🇨",
+    "ioc": "ECU",
+    "languages": [
+      "spa",
+      "que"
+    ],
+    "name": "Ecuador",
+    "img":"assets/img/flag-of-Ecuador.png"
+  },
+  {
+    "alpha2": "EE",
+    "alpha3": "EST",
+    "countryCallingCodes": [
+      "+372"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇪🇪",
+    "ioc": "EST",
+    "languages": [
+      "est"
+    ],
+    "name": "Estonia",
+    "img":"assets/img/flag-of-Estonia.png"
+  },
+  {
+    "alpha2": "EG",
+    "alpha3": "EGY",
+    "countryCallingCodes": [
+      "+20"
+    ],
+    "currencies": [
+      "EGP"
+    ],
+    "emoji": "🇪🇬",
+    "ioc": "EGY",
+    "languages": [
+      "ara"
+    ],
+    "name": "Egypt",
+    "img":"assets/img/flag-of-Egypt.png"
+  },
+ 
+  {
+    "alpha2": "ER",
+    "alpha3": "ERI",
+    "countryCallingCodes": [
+      "+291"
+    ],
+    "currencies": [
+      "ERN"
+    ],
+    "emoji": "🇪🇷",
+    "ioc": "ERI",
+    "languages": [
+      "eng",
+      "ara",
+      "tir"
+    ],
+    "name": "Eritrea",
+    "img":"assets/img/flag-of-Eritrea.png"
+  },
+  {
+    "alpha2": "ES",
+    "alpha3": "ESP",
+    "countryCallingCodes": [
+      "+34"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇪🇸",
+    "ioc": "ESP",
+    "languages": [
+      "spa"
+    ],
+    "name": "Spain",
+    "img":"assets/img/flag-of-Spain.png"
+  },
+  {
+    "alpha2": "ET",
+    "alpha3": "ETH",
+    "countryCallingCodes": [
+      "+251"
+    ],
+    "currencies": [
+      "ETB"
+    ],
+    "emoji": "🇪🇹",
+    "ioc": "ETH",
+    "languages": [
+      "amh"
+    ],
+    "name": "Ethiopia",
+    "img":"assets/img/flag-of-Ethiopia.png"
+  },
+  
+  {
+    "alpha2": "FI",
+    "alpha3": "FIN",
+    "countryCallingCodes": [
+      "+358"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇫🇮",
+    "ioc": "FIN",
+    "languages": [
+      "fin",
+      "swe"
+    ],
+    "name": "Finland",
+    "img":"assets/img/flag-of-Finland.png"
+  },
+  {
+    "alpha2": "FJ",
+    "alpha3": "FJI",
+    "countryCallingCodes": [
+      "+679"
+    ],
+    "currencies": [
+      "FJD"
+    ],
+    "emoji": "🇫🇯",
+    "ioc": "FIJ",
+    "languages": [
+      "eng",
+      "fij"
+    ],
+    "name": "Fiji",
+    "img":"assets/img/flag-of-Fiji.png"
+  },
+  
+  {
+    "alpha2": "FM",
+    "alpha3": "FSM",
+    "countryCallingCodes": [
+      "+691"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "emoji": "🇫🇲",
+    "ioc": "FSM",
+    "languages": [
+      "eng"
+    ],
+    "name": "Micronesia, Federated States Of",
+    "img":"assets/img/flag-of-Micronesia.png"
+  },
+
+  {
+    "alpha2": "FR",
+    "alpha3": "FRA",
+    "countryCallingCodes": [
+      "+33"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇫🇷",
+    "ioc": "FRA",
+    "languages": [
+      "fra"
+    ],
+    "name": "France",
+    "img":"assets/img/flag-of-France.png"
+  },
+  
+  {
+    "alpha2": "GA",
+    "alpha3": "GAB",
+    "countryCallingCodes": [
+      "+241"
+    ],
+    "currencies": [
+      "XAF"
+    ],
+    "emoji": "🇬🇦",
+    "ioc": "GAB",
+    "languages": [
+      "fra"
+    ],
+    "name": "Gabon",
+    "img":"assets/img/flag-of-Gabon.png"
+  },
+  {
+    "alpha2": "GB",
+    "alpha3": "GBR",
+    "countryCallingCodes": [
+      "+44"
+    ],
+    "currencies": [
+      "GBP"
+    ],
+    "emoji": "🇬🇧",
+    "ioc": "GBR",
+    "languages": [
+      "eng",
+      "cor",
+      "gle",
+      "gla",
+      "cym"
+    ],
+    "name": "United Kingdom",
+    "img":"assets/img/flag-of-United-Kingdom.png"
+  },
+  {
+    "alpha2": "GD",
+    "alpha3": "GRD",
+    "countryCallingCodes": [
+      "+473"
+    ],
+    "currencies": [
+      "XCD"
+    ],
+    "emoji": "🇬🇩",
+    "ioc": "GRN",
+    "languages": [
+      "eng"
+    ],
+    "name": "Grenada",
+    "img":"assets/img/flag-of-Grenada.png"
+  },
+  {
+    "alpha2": "GE",
+    "alpha3": "GEO",
+    "countryCallingCodes": [
+      "+995"
+    ],
+    "currencies": [
+      "GEL"
+    ],
+    "emoji": "🇬🇪",
+    "ioc": "GEO",
+    "languages": [
+      "kat"
+    ],
+    "name": "Georgia",
+    "img":"assets/img/flag-of-Georgia.png"
+  },
+ 
+  {
+    "alpha2": "GH",
+    "alpha3": "GHA",
+    "countryCallingCodes": [
+      "+233"
+    ],
+    "currencies": [
+      "GHS"
+    ],
+    "emoji": "🇬🇭",
+    "ioc": "GHA",
+    "languages": [
+      "eng"
+    ],
+    "name": "Ghana",
+    "img":"assets/img/flag-of-Ghana.png"
+  },
+ 
+  {
+    "alpha2": "GM",
+    "alpha3": "GMB",
+    "countryCallingCodes": [
+      "+220"
+    ],
+    "currencies": [
+      "GMD"
+    ],
+    "emoji": "🇬🇲",
+    "ioc": "GAM",
+    "languages": [
+      "eng"
+    ],
+    "name": "Gambia",
+    "img":"assets/img/flag-of-Gambia.png"
+  },
+  {
+    "alpha2": "GN",
+    "alpha3": "GIN",
+    "countryCallingCodes": [
+      "+224"
+    ],
+    "currencies": [
+      "GNF"
+    ],
+    "emoji": "🇬🇳",
+    "ioc": "GUI",
+    "languages": [
+      "fra"
+    ],
+    "name": "Guinea",
+    "img":"assets/img/flag-of-Guinea.png"
+  },
+  
+  {
+    "alpha2": "GQ",
+    "alpha3": "GNQ",
+    "countryCallingCodes": [
+      "+240"
+    ],
+    "currencies": [
+      "XAF"
+    ],
+    "emoji": "🇬🇶",
+    "ioc": "GEQ",
+    "languages": [
+      "spa",
+      "fra",
+      "por"
+    ],
+    "name": "Equatorial Guinea",
+    "img":"assets/img/flag-of-Equatorial-Guinea.png"
+  },
+  {
+    "alpha2": "GR",
+    "alpha3": "GRC",
+    "countryCallingCodes": [
+      "+30"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇬🇷",
+    "ioc": "GRE",
+    "languages": [
+      "ell"
+    ],
+    "name": "Greece",
+    "img":"assets/img/flag-of-Greece.png"
+  },
+  
+  {
+    "alpha2": "GT",
+    "alpha3": "GTM",
+    "countryCallingCodes": [
+      "+502"
+    ],
+    "currencies": [
+      "GTQ"
+    ],
+    "emoji": "🇬🇹",
+    "ioc": "GUA",
+    "languages": [
+      "spa"
+    ],
+    "name": "Guatemala",
+    "img":"assets/img/flag-of-Guatemala.png"
+  },
+  
+  {
+    "alpha2": "GW",
+    "alpha3": "GNB",
+    "countryCallingCodes": [
+      "+245"
+    ],
+    "currencies": [
+      "XOF"
+    ],
+    "emoji": "🇬🇼",
+    "ioc": "GBS",
+    "languages": [
+      "por"
+    ],
+    "name": "Guinea-bissau",
+    "img":"assets/img/flag-of-Guinea-Bissau.png"
+  },
+  {
+    "alpha2": "GY",
+    "alpha3": "GUY",
+    "countryCallingCodes": [
+      "+592"
+    ],
+    "currencies": [
+      "GYD"
+    ],
+    "emoji": "🇬🇾",
+    "ioc": "GUY",
+    "languages": [
+      "eng"
+    ],
+    "name": "Guyana",
+    "img":"assets/img/flag-of-Guyana.png"
+  },
+ 
+  {
+    "alpha2": "HN",
+    "alpha3": "HND",
+    "countryCallingCodes": [
+      "+504"
+    ],
+    "currencies": [
+      "HNL"
+    ],
+    "emoji": "🇭🇳",
+    "ioc": "HON",
+    "languages": [
+      "spa"
+    ],
+    "name": "Honduras",
+    "img":"assets/img/flag-of-Honduras.png"
+  },
+  {
+    "alpha2": "HR",
+    "alpha3": "HRV",
+    "countryCallingCodes": [
+      "+385"
+    ],
+    "currencies": [
+      "HRK"
+    ],
+    "emoji": "🇭🇷",
+    "ioc": "CRO",
+    "languages": [
+      "hrv"
+    ],
+    "name": "Croatia",
+    "img":"assets/img/flag-of-Croatia.png"
+  },
+  {
+    "alpha2": "HT",
+    "alpha3": "HTI",
+    "countryCallingCodes": [
+      "+509"
+    ],
+    "currencies": [
+      "HTG",
+      "USD"
+    ],
+    "emoji": "🇭🇹",
+    "ioc": "HAI",
+    "languages": [
+      "fra",
+      "hat"
+    ],
+    "name": "Haiti",
+    "img":"assets/img/flag-of-Haiti.png"
+  },
+  {
+    "alpha2": "HU",
+    "alpha3": "HUN",
+    "countryCallingCodes": [
+      "+36"
+    ],
+    "currencies": [
+      "HUF"
+    ],
+    "emoji": "🇭🇺",
+    "ioc": "HUN",
+    "languages": [
+      "hun"
+    ],
+    "name": "Hungary",
+    "img":"assets/img/flag-of-Hungary.png"
+  },
+  
+  {
+    "alpha2": "ID",
+    "alpha3": "IDN",
+    "countryCallingCodes": [
+      "+62"
+    ],
+    "currencies": [
+      "IDR"
+    ],
+    "emoji": "🇮🇩",
+    "ioc": "INA",
+    "languages": [
+      "ind"
+    ],
+    "name": "Indonesia",
+    "img":"assets/img/flag-of-Indonesia.png"
+  },
+  {
+    "alpha2": "IE",
+    "alpha3": "IRL",
+    "countryCallingCodes": [
+      "+353"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇮🇪",
+    "ioc": "IRL",
+    "languages": [
+      "eng",
+      "gle"
+    ],
+    "name": "Ireland",
+    "img":"assets/img/flag-of-Ireland.png"
+  },
+  {
+    "alpha2": "IL",
+    "alpha3": "ISR",
+    "countryCallingCodes": [
+      "+972"
+    ],
+    "currencies": [
+      "ILS"
+    ],
+    "emoji": "🇮🇱",
+    "ioc": "ISR",
+    "languages": [
+      "heb",
+      "ara",
+      "eng"
+    ],
+    "name": "Israel",
+    "img":"assets/img/flag-of-Israel.png"
+  },
+  
+  {
+    "alpha2": "IN",
+    "alpha3": "IND",
+    "countryCallingCodes": [
+      "+91"
+    ],
+    "currencies": [
+      "INR"
+    ],
+    "emoji": "🇮🇳",
+    "ioc": "IND",
+    "languages": [
+      "eng",
+      "hin"
+    ],
+    "name": "India",
+    "img":"assets/img/flag-of-India.png"
+  },
+ 
+  {
+    "alpha2": "IQ",
+    "alpha3": "IRQ",
+    "countryCallingCodes": [
+      "+964"
+    ],
+    "currencies": [
+      "IQD"
+    ],
+    "emoji": "🇮🇶",
+    "ioc": "IRQ",
+    "languages": [
+      "ara",
+      "kur"
+    ],
+    "name": "Iraq",
+    "img":"assets/img/flag-of-Iraq.png"
+  },
+  {
+    "alpha2": "IR",
+    "alpha3": "IRN",
+    "countryCallingCodes": [
+      "+98"
+    ],
+    "currencies": [
+      "IRR"
+    ],
+    "emoji": "🇮🇷",
+    "ioc": "IRI",
+    "languages": [
+      "fas"
+    ],
+    "name": "Iran, Islamic Republic Of",
+    "img":"assets/img/flag-of-Iran.png"
+  },
+  {
+    "alpha2": "IS",
+    "alpha3": "ISL",
+    "countryCallingCodes": [
+      "+354"
+    ],
+    "currencies": [
+      "ISK"
+    ],
+    "emoji": "🇮🇸",
+    "ioc": "ISL",
+    "languages": [
+      "isl"
+    ],
+    "name": "Iceland",
+    "img":"assets/img/flag-of-Iceland.png"
+  },
+  {
+    "alpha2": "IT",
+    "alpha3": "ITA",
+    "countryCallingCodes": [
+      "+39"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇮🇹",
+    "ioc": "ITA",
+    "languages": [
+      "ita"
+    ],
+    "name": "Italy",
+    "img":"assets/img/flag-of-Italy.png"
+  },
+ 
+  {
+    "alpha2": "JM",
+    "alpha3": "JAM",
+    "countryCallingCodes": [
+      "+1 876"
+    ],
+    "currencies": [
+      "JMD"
+    ],
+    "emoji": "🇯🇲",
+    "ioc": "JAM",
+    "languages": [
+      "eng"
+    ],
+    "name": "Jamaica",
+    "img":"assets/img/flag-of-Jamaica.png"
+  },
+  {
+    "alpha2": "JO",
+    "alpha3": "JOR",
+    "countryCallingCodes": [
+      "+962"
+    ],
+    "currencies": [
+      "JOD"
+    ],
+    "emoji": "🇯🇴",
+    "ioc": "JOR",
+    "languages": [
+      "ara"
+    ],
+    "name": "Jordan",
+    "img":"assets/img/flag-of-Jordan.png"
+  },
+  {
+    "alpha2": "JP",
+    "alpha3": "JPN",
+    "countryCallingCodes": [
+      "+81"
+    ],
+    "currencies": [
+      "JPY"
+    ],
+    "emoji": "🇯🇵",
+    "ioc": "JPN",
+    "languages": [
+      "jpn"
+    ],
+    "name": "Japan",
+    "img":"assets/img/flag-of-Japan.png"
+  },
+  
+  {
+    "alpha2": "KE",
+    "alpha3": "KEN",
+    "countryCallingCodes": [
+      "+254"
+    ],
+    "currencies": [
+      "KES"
+    ],
+    "emoji": "🇰🇪",
+    "ioc": "KEN",
+    "languages": [
+      "eng",
+      "swa"
+    ],
+    "name": "Kenya",
+    "img":"assets/img/flag-of-Kenya.png"
+  },
+  {
+    "alpha2": "KG",
+    "alpha3": "KGZ",
+    "countryCallingCodes": [
+      "+996"
+    ],
+    "currencies": [
+      "KGS"
+    ],
+    "emoji": "🇰🇬",
+    "ioc": "KGZ",
+    "languages": [
+      "rus"
+    ],
+    "name": "Kyrgyzstan",
+    "img":"assets/img/flag-of-Kyrgyzstan.png"
+  },
+  {
+    "alpha2": "KH",
+    "alpha3": "KHM",
+    "countryCallingCodes": [
+      "+855"
+    ],
+    "currencies": [
+      "KHR"
+    ],
+    "emoji": "🇰🇭",
+    "ioc": "CAM",
+    "languages": [
+      "khm"
+    ],
+    "name": "Cambodia",
+    "img":"assets/img/flag-of-Cambodia.png"
+  },
+  {
+    "alpha2": "KI",
+    "alpha3": "KIR",
+    "countryCallingCodes": [
+      "+686"
+    ],
+    "currencies": [
+      "AUD"
+    ],
+    "emoji": "🇰🇮",
+    "ioc": "KIR",
+    "languages": [
+      "eng"
+    ],
+    "name": "Kiribati",
+    "img":"assets/img/flag-of-Kiribati.png"
+  },
+  {
+    "alpha2": "KM",
+    "alpha3": "COM",
+    "countryCallingCodes": [
+      "+269"
+    ],
+    "currencies": [
+      "KMF"
+    ],
+    "emoji": "🇰🇲",
+    "ioc": "COM",
+    "languages": [
+      "ara",
+      "fra"
+    ],
+    "name": "Comoros",
+    "img":"assets/img/flag-of-Comoros.png"
+  },
+ 
+  {
+    "alpha2": "KP",
+    "alpha3": "PRK",
+    "countryCallingCodes": [
+      "+850"
+    ],
+    "currencies": [
+      "KPW"
+    ],
+    "emoji": "🇰🇵",
+    "ioc": "PRK",
+    "languages": [
+      "kor"
+    ],
+    "name": "Korea, Democratic People's Republic Of",
+    "img":"assets/img/flag-of-Korea.png"
+  },
+  
+  {
+    "alpha2": "KW",
+    "alpha3": "KWT",
+    "countryCallingCodes": [
+      "+965"
+    ],
+    "currencies": [
+      "KWD"
+    ],
+    "emoji": "🇰🇼",
+    "ioc": "KUW",
+    "languages": [
+      "ara"
+    ],
+    "name": "Kuwait",
+    "img":"assets/img/flag-of-Kuwait.png"
+  },
+  
+  {
+    "alpha2": "KZ",
+    "alpha3": "KAZ",
+    "countryCallingCodes": [
+      "+7",
+      "+7 6",
+      "+7 7"
+    ],
+    "currencies": [
+      "KZT"
+    ],
+    "emoji": "🇰🇿",
+    "ioc": "KAZ",
+    "languages": [
+      "kaz",
+      "rus"
+    ],
+    "name": "Kazakhstan",
+    "img":"assets/img/flag-of-Kazakhstan.png"
+  },
+  
+  {
+    "alpha2": "LB",
+    "alpha3": "LBN",
+    "countryCallingCodes": [
+      "+961"
+    ],
+    "currencies": [
+      "LBP"
+    ],
+    "emoji": "🇱🇧",
+    "ioc": "LIB",
+    "languages": [
+      "ara",
+      "hye"
+    ],
+    "name": "Lebanon",
+    "img":"assets/img/flag-of-Lebanon.png"
+  },
+  
+  {
+    "alpha2": "LI",
+    "alpha3": "LIE",
+    "countryCallingCodes": [
+      "+423"
+    ],
+    "currencies": [
+      "CHF"
+    ],
+    "emoji": "🇱🇮",
+    "ioc": "LIE",
+    "languages": [
+      "deu"
+    ],
+    "name": "Liechtenstein",
+    "img":"assets/img/flag-of-Liechtenstein.png"
+  },
+  {
+    "alpha2": "LK",
+    "alpha3": "LKA",
+    "countryCallingCodes": [
+      "+94"
+    ],
+    "currencies": [
+      "LKR"
+    ],
+    "emoji": "🇱🇰",
+    "ioc": "SRI",
+    "languages": [
+      "sin",
+      "tam"
+    ],
+    "name": "Sri Lanka",
+    "img":"assets/img/flag-of-Sri-Lanka.png"
+  },
+  {
+    "alpha2": "LR",
+    "alpha3": "LBR",
+    "countryCallingCodes": [
+      "+231"
+    ],
+    "currencies": [
+      "LRD"
+    ],
+    "emoji": "🇱🇷",
+    "ioc": "LBR",
+    "languages": [
+      "eng"
+    ],
+    "name": "Liberia",
+    "img":"assets/img/flag-of-Liberia.png"
+  },
+  {
+    "alpha2": "LS",
+    "alpha3": "LSO",
+    "countryCallingCodes": [
+      "+266"
+    ],
+    "currencies": [
+      "LSL",
+      "ZAR"
+    ],
+    "emoji": "🇱🇸",
+    "ioc": "LES",
+    "languages": [
+      "eng",
+      "sot"
+    ],
+    "name": "Lesotho",
+    "img":"assets/img/flag-of-Lesotho.png"
+  },
+  {
+    "alpha2": "LT",
+    "alpha3": "LTU",
+    "countryCallingCodes": [
+      "+370"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇱🇹",
+    "ioc": "LTU",
+    "languages": [
+      "lit"
+    ],
+    "name": "Lithuania",
+    "img":"assets/img/flag-of-Lithuania.png"
+  },
+  {
+    "alpha2": "LU",
+    "alpha3": "LUX",
+    "countryCallingCodes": [
+      "+352"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇱🇺",
+    "ioc": "LUX",
+    "languages": [
+      "fra",
+      "deu",
+      "ltz"
+    ],
+    "name": "Luxembourg",
+    "img":"assets/img/flag-of-Luxembourg.png"
+  },
+  {
+    "alpha2": "LV",
+    "alpha3": "LVA",
+    "countryCallingCodes": [
+      "+371"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇱🇻",
+    "ioc": "LAT",
+    "languages": [
+      "lav"
+    ],
+    "name": "Latvia",
+    "img":"assets/img/flag-of-Latvia.png"
+  },
+  {
+    "alpha2": "LY",
+    "alpha3": "LBY",
+    "countryCallingCodes": [
+      "+218"
+    ],
+    "currencies": [
+      "LYD"
+    ],
+    "emoji": "🇱🇾",
+    "ioc": "LBA",
+    "languages": [
+      "ara"
+    ],
+    "name": "Libya",
+    "img":"assets/img/flag-of-Libya.png"
+  },
+  {
+    "alpha2": "MA",
+    "alpha3": "MAR",
+    "countryCallingCodes": [
+      "+212"
+    ],
+    "currencies": [
+      "MAD"
+    ],
+    "emoji": "🇲🇦",
+    "ioc": "MAR",
+    "languages": [
+      "ara"
+    ],
+    "name": "Morocco",
+    "img":"assets/img/flag-of-Morocco.png"
+  },
+  {
+    "alpha2": "MC",
+    "alpha3": "MCO",
+    "countryCallingCodes": [
+      "+377"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇲🇨",
+    "ioc": "MON",
+    "languages": [
+      "fra"
+    ],
+    "name": "Monaco",
+    "img":"assets/img/flag-of-Monaco.png"
+  },
+  {
+    "alpha2": "MD",
+    "alpha3": "MDA",
+    "countryCallingCodes": [
+      "+373"
+    ],
+    "currencies": [
+      "MDL"
+    ],
+    "emoji": "🇲🇩",
+    "ioc": "MDA",
+    "languages": [
+      "ron"
+    ],
+    "name": "Moldova",
+    "img":"assets/img/flag-of-Moldova.png"
+  },
+  {
+    "alpha2": "ME",
+    "alpha3": "MNE",
+    "countryCallingCodes": [
+      "+382"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇲🇪",
+    "ioc": "MNE",
+    "languages": [
+      "mot"
+    ],
+    "name": "Montenegro",
+    "img":"assets/img/flag-of-Montenegro.png"
+  },
+  
+  {
+    "alpha2": "MG",
+    "alpha3": "MDG",
+    "countryCallingCodes": [
+      "+261"
+    ],
+    "currencies": [
+      "MGA"
+    ],
+    "emoji": "🇲🇬",
+    "ioc": "MAD",
+    "languages": [
+      "fra",
+      "mlg"
+    ],
+    "name": "Madagascar",
+    "img":"assets/img/flag-of-Madagascar.png"
+  },
+  
+  {
+    "alpha2": "MI",
+    "alpha3": "MID",
+    "countryCallingCodes": [],
+    "currencies": [],
+    "ioc": "",
+    "languages": [],
+    "name": "Midway Islands",
+    "status": "deleted"
+  },
+  {
+    "alpha2": "MK",
+    "alpha3": "MKD",
+    "countryCallingCodes": [
+      "+389"
+    ],
+    "currencies": [
+      "MKD"
+    ],
+    "emoji": "🇲🇰",
+    "ioc": "MKD",
+    "languages": [
+      "mkd"
+    ],
+    "name": "Macedonia, The Former Yugoslav Republic Of",
+    "img":"assets/img/flag-of-Macedonia.png"
+  },
+  {
+    "alpha2": "ML",
+    "alpha3": "MLI",
+    "countryCallingCodes": [
+      "+223"
+    ],
+    "currencies": [
+      "XOF"
+    ],
+    "emoji": "🇲🇱",
+    "ioc": "MLI",
+    "languages": [
+      "fra"
+    ],
+    "name": "Mali",
+    "img":"assets/img/flag-of-Mali.png"
+  },
+  {
+    "alpha2": "MM",
+    "alpha3": "MMR",
+    "countryCallingCodes": [
+      "+95"
+    ],
+    "currencies": [
+      "MMK"
+    ],
+    "emoji": "🇲🇲",
+    "ioc": "MYA",
+    "languages": [
+      "mya"
+    ],
+    "name": "Myanmar",
+    "img":"assets/img/flag-of-Myanmar.png"
+  },
+  {
+    "alpha2": "MN",
+    "alpha3": "MNG",
+    "countryCallingCodes": [
+      "+976"
+    ],
+    "currencies": [
+      "MNT"
+    ],
+    "emoji": "🇲🇳",
+    "ioc": "MGL",
+    "languages": [
+      "mon"
+    ],
+    "name": "Mongolia",
+    "img":"assets/img/flag-of-Mongolia.png"
+  },
+  {
+    "alpha2": "MO",
+    "alpha3": "MAC",
+    "countryCallingCodes": [
+      "+853"
+    ],
+    "currencies": [
+      "MOP"
+    ],
+    "emoji": "🇲🇴",
+    "ioc": "MAC",
+    "languages": [
+      "zho",
+      "por"
+    ],
+    "name": "Macao",
+    "img":"assets/img/flag-of-Macao.png"
+  },
+ 
+  {
+    "alpha2": "MQ",
+    "alpha3": "MTQ",
+    "countryCallingCodes": [
+      "+596"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇲🇶",
+    "ioc": "",
+    "languages": [],
+    "name": "Martinique",
+    "img":"assets/img/flag-of-United-Arab-Emirates.png"
+  },
+  {
+    "alpha2": "MR",
+    "alpha3": "MRT",
+    "countryCallingCodes": [
+      "+222"
+    ],
+    "currencies": [
+      "MRO"
+    ],
+    "emoji": "🇲🇷",
+    "ioc": "MTN",
+    "languages": [
+      "ara",
+      "fra"
+    ],
+    "name": "Mauritania",
+    "img":"assets/img/flag-of-Mauritania.png"
+  },
+  
+  {
+    "alpha2": "MT",
+    "alpha3": "MLT",
+    "countryCallingCodes": [
+      "+356"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇲🇹",
+    "ioc": "MLT",
+    "languages": [
+      "mlt",
+      "eng"
+    ],
+    "name": "Malta",
+    "img":"assets/img/flag-of-Malta.png"
+  },
+  {
+    "alpha2": "MU",
+    "alpha3": "MUS",
+    "countryCallingCodes": [
+      "+230"
+    ],
+    "currencies": [
+      "MUR"
+    ],
+    "emoji": "🇲🇺",
+    "ioc": "MRI",
+    "languages": [
+      "eng",
+      "fra"
+    ],
+    "name": "Mauritius",
+    "img":"assets/img/flag-of-Mauritius.png"
+  },
+  {
+    "alpha2": "MV",
+    "alpha3": "MDV",
+    "countryCallingCodes": [
+      "+960"
+    ],
+    "currencies": [
+      "MVR"
+    ],
+    "emoji": "🇲🇻",
+    "ioc": "MDV",
+    "languages": [
+      "div"
+    ],
+    "name": "Maldives",
+    "img":"assets/img/flag-of-Maldives.png"
+  },
+  {
+    "alpha2": "MW",
+    "alpha3": "MWI",
+    "countryCallingCodes": [
+      "+265"
+    ],
+    "currencies": [
+      "MWK"
+    ],
+    "emoji": "🇲🇼",
+    "ioc": "MAW",
+    "languages": [
+      "eng",
+      "nya"
+    ],
+    "name": "Malawi",
+    "img":"assets/img/flag-of-Malawi.png"
+  },
+  {
+    "alpha2": "MX",
+    "alpha3": "MEX",
+    "countryCallingCodes": [
+      "+52"
+    ],
+    "currencies": [
+      "MXN",
+      "MXV"
+    ],
+    "emoji": "🇲🇽",
+    "ioc": "MEX",
+    "languages": [
+      "spa"
+    ],
+    "name": "Mexico",
+    "img":"assets/img/flag-of-Mexico.png"
+  },
+  {
+    "alpha2": "MY",
+    "alpha3": "MYS",
+    "countryCallingCodes": [
+      "+60"
+    ],
+    "currencies": [
+      "MYR"
+    ],
+    "emoji": "🇲🇾",
+    "ioc": "MAS",
+    "languages": [
+      "msa",
+      "eng"
+    ],
+    "name": "Malaysia",
+    "img":"assets/img/flag-of-Malaysia.png"
+  },
+  {
+    "alpha2": "MZ",
+    "alpha3": "MOZ",
+    "countryCallingCodes": [
+      "+258"
+    ],
+    "currencies": [
+      "MZN"
+    ],
+    "emoji": "🇲🇿",
+    "ioc": "MOZ",
+    "languages": [
+      "por"
+    ],
+    "name": "Mozambique",
+    "img":"assets/img/flag-of-Mozambique.png"
+  },
+  {
+    "alpha2": "NA",
+    "alpha3": "NAM",
+    "countryCallingCodes": [
+      "+264"
+    ],
+    "currencies": [
+      "NAD",
+      "ZAR"
+    ],
+    "emoji": "🇳🇦",
+    "ioc": "NAM",
+    "languages": [
+      "eng"
+    ],
+    "name": "Namibia",
+    "img":"assets/img/flag-of-Namibia.png"
+  },
+  
+  {
+    "alpha2": "NE",
+    "alpha3": "NER",
+    "countryCallingCodes": [
+      "+227"
+    ],
+    "currencies": [
+      "XOF"
+    ],
+    "emoji": "🇳🇪",
+    "ioc": "NIG",
+    "languages": [
+      "fra"
+    ],
+    "name": "Niger",
+    "img":"assets/img/flag-of-Niger.png"
+  },
+  
+  {
+    "alpha2": "NG",
+    "alpha3": "NGA",
+    "countryCallingCodes": [
+      "+234"
+    ],
+    "currencies": [
+      "NGN"
+    ],
+    "emoji": "🇳🇬",
+    "ioc": "NGR",
+    "languages": [
+      "eng"
+    ],
+    "name": "Nigeria",
+    "img":"assets/img/flag-of-Nigeria.png"
+  },
+  
+  {
+    "alpha2": "NI",
+    "alpha3": "NIC",
+    "countryCallingCodes": [
+      "+505"
+    ],
+    "currencies": [
+      "NIO"
+    ],
+    "emoji": "🇳🇮",
+    "ioc": "NCA",
+    "languages": [
+      "spa"
+    ],
+    "name": "Nicaragua",
+    "img":"assets/img/flag-of-Nicaragua.png"
+  },
+  {
+    "alpha2": "NL",
+    "alpha3": "NLD",
+    "countryCallingCodes": [
+      "+31"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇳🇱",
+    "ioc": "NED",
+    "languages": [
+      "nld"
+    ],
+    "name": "Netherlands",
+    "img":"assets/img/flag-of-Netherlands.png"
+  },
+  {
+    "alpha2": "NO",
+    "alpha3": "NOR",
+    "countryCallingCodes": [
+      "+47"
+    ],
+    "currencies": [
+      "NOK"
+    ],
+    "emoji": "🇳🇴",
+    "ioc": "NOR",
+    "languages": [
+      "nor"
+    ],
+    "name": "Norway",
+    "img":"assets/img/flag-of-Norway.png"
+  },
+  {
+    "alpha2": "NP",
+    "alpha3": "NPL",
+    "countryCallingCodes": [
+      "+977"
+    ],
+    "currencies": [
+      "NPR"
+    ],
+    "emoji": "🇳🇵",
+    "ioc": "NEP",
+    "languages": [
+      "nep"
+    ],
+    "name": "Nepal",
+    "img":"assets/img/flag-of-Nepal.png"
+  },
+  
+  {
+    "alpha2": "NR",
+    "alpha3": "NRU",
+    "countryCallingCodes": [
+      "+674"
+    ],
+    "currencies": [
+      "AUD"
+    ],
+    "emoji": "🇳🇷",
+    "ioc": "NRU",
+    "languages": [
+      "eng",
+      "nau"
+    ],
+    "name": "Nauru",
+    "img":"assets/img/flag-of-Nauru.png"
+  },
+  
+  
+  {
+    "alpha2": "NZ",
+    "alpha3": "NZL",
+    "countryCallingCodes": [
+      "+64"
+    ],
+    "currencies": [
+      "NZD"
+    ],
+    "emoji": "🇳🇿",
+    "ioc": "NZL",
+    "languages": [
+      "eng"
+    ],
+    "name": "New Zealand",
+    "img":"assets/img/flag-of-New-Zealand.png"
+  },
+  {
+    "alpha2": "OM",
+    "alpha3": "OMN",
+    "countryCallingCodes": [
+      "+968"
+    ],
+    "currencies": [
+      "OMR"
+    ],
+    "emoji": "🇴🇲",
+    "ioc": "OMA",
+    "languages": [
+      "ara"
+    ],
+    "name": "Oman",
+    "img":"assets/img/flag-of-Oman.png"
+  },
+  {
+    "alpha2": "PA",
+    "alpha3": "PAN",
+    "countryCallingCodes": [
+      "+507"
+    ],
+    "currencies": [
+      "PAB",
+      "USD"
+    ],
+    "emoji": "🇵🇦",
+    "ioc": "PAN",
+    "languages": [
+      "spa"
+    ],
+    "name": "Panama",
+    "img":"assets/img/flag-of-Panama.png"
+  },
+  
+  {
+    "alpha2": "PE",
+    "alpha3": "PER",
+    "countryCallingCodes": [
+      "+51"
+    ],
+    "currencies": [
+      "PEN"
+    ],
+    "emoji": "🇵🇪",
+    "ioc": "PER",
+    "languages": [
+      "spa",
+      "aym",
+      "que"
+    ],
+    "name": "Peru",
+    "img":"assets/img/flag-of-Peru.png"
+  },
+
+  {
+    "alpha2": "PG",
+    "alpha3": "PNG",
+    "countryCallingCodes": [
+      "+675"
+    ],
+    "currencies": [
+      "PGK"
+    ],
+    "emoji": "🇵🇬",
+    "ioc": "PNG",
+    "languages": [
+      "eng"
+    ],
+    "name": "Papua New Guinea",
+    "img":"assets/img/flag-of-Papua-New-Guinea.png"
+  },
+  {
+    "alpha2": "PH",
+    "alpha3": "PHL",
+    "countryCallingCodes": [
+      "+63"
+    ],
+    "currencies": [
+      "PHP"
+    ],
+    "emoji": "🇵🇭",
+    "ioc": "PHI",
+    "languages": [
+      "eng"
+    ],
+    "name": "Philippines",
+    "img":"assets/img/flag-of-Philippines.png"
+  },
+  {
+    "alpha2": "PK",
+    "alpha3": "PAK",
+    "countryCallingCodes": [
+      "+92"
+    ],
+    "currencies": [
+      "PKR"
+    ],
+    "emoji": "🇵🇰",
+    "ioc": "PAK",
+    "languages": [
+      "urd",
+      "eng"
+    ],
+    "name": "Pakistan",
+    "img":"assets/img/flag-of-Pakistan.png"
+  },
+  {
+    "alpha2": "PL",
+    "alpha3": "POL",
+    "countryCallingCodes": [
+      "+48"
+    ],
+    "currencies": [
+      "PLN"
+    ],
+    "emoji": "🇵🇱",
+    "ioc": "POL",
+    "languages": [
+      "pol"
+    ],
+    "name": "Poland",
+    "img":"assets/img/flag-of-Poland.png"
+  },
+ 
+
+  {
+    "alpha2": "PT",
+    "alpha3": "PRT",
+    "countryCallingCodes": [
+      "+351"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇵🇹",
+    "ioc": "POR",
+    "languages": [
+      "por"
+    ],
+    "name": "Portugal",
+    "img":"assets/img/flag-of-Portugal.png"
+  },
+  
+  {
+    "alpha2": "PW",
+    "alpha3": "PLW",
+    "countryCallingCodes": [
+      "+680"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "emoji": "🇵🇼",
+    "ioc": "PLW",
+    "languages": [
+      "eng"
+    ],
+    "name": "Palau",
+    "img":"assets/img/flag-of-Palau.png"
+  },
+  {
+    "alpha2": "PY",
+    "alpha3": "PRY",
+    "countryCallingCodes": [
+      "+595"
+    ],
+    "currencies": [
+      "PYG"
+    ],
+    "emoji": "🇵🇾",
+    "ioc": "PAR",
+    "languages": [
+      "spa"
+    ],
+    "name": "Paraguay",
+    "img":"assets/img/flag-of-Paraguay.png"
+  },
+  
+  {
+    "alpha2": "QA",
+    "alpha3": "QAT",
+    "countryCallingCodes": [
+      "+974"
+    ],
+    "currencies": [
+      "QAR"
+    ],
+    "emoji": "🇶🇦",
+    "ioc": "QAT",
+    "languages": [
+      "ara"
+    ],
+    "name": "Qatar",
+    "img":"assets/img/flag-of-Qatar.png"
+  },
+ 
+  {
+    "alpha2": "RO",
+    "alpha3": "ROU",
+    "countryCallingCodes": [
+      "+40"
+    ],
+    "currencies": [
+      "RON"
+    ],
+    "emoji": "🇷🇴",
+    "ioc": "ROU",
+    "languages": [
+      "ron"
+    ],
+    "name": "Romania",
+    "img":"assets/img/flag-of-Romania.png"
+  },
+  {
+    "alpha2": "RS",
+    "alpha3": "SRB",
+    "countryCallingCodes": [
+      "+381"
+    ],
+    "currencies": [
+      "RSD"
+    ],
+    "emoji": "🇷🇸",
+    "ioc": "SRB",
+    "languages": [
+      "srp"
+    ],
+    "name": "Serbia",
+    "img":"assets/img/flag-of-Serbia.png"
+  },
+  
+  {
+    "alpha2": "RW",
+    "alpha3": "RWA",
+    "countryCallingCodes": [
+      "+250"
+    ],
+    "currencies": [
+      "RWF"
+    ],
+    "emoji": "🇷🇼",
+    "ioc": "RWA",
+    "languages": [
+      "eng",
+      "fra",
+      "kin"
+    ],
+    "name": "Rwanda",
+    "img":"assets/img/flag-of-Rwanda.png"
+  },
+  {
+    "alpha2": "SA",
+    "alpha3": "SAU",
+    "countryCallingCodes": [
+      "+966"
+    ],
+    "currencies": [
+      "SAR"
+    ],
+    "emoji": "🇸🇦",
+    "ioc": "KSA",
+    "languages": [
+      "ara"
+    ],
+    "name": "Saudi Arabia",
+    "img":"assets/img/flag-of-Saudi-Arabia.png"
+  },
+
+  {
+    "alpha2": "SC",
+    "alpha3": "SYC",
+    "countryCallingCodes": [
+      "+248"
+    ],
+    "currencies": [
+      "SCR"
+    ],
+    "emoji": "🇸🇨",
+    "ioc": "SEY",
+    "languages": [
+      "eng",
+      "fra"
+    ],
+    "name": "Seychelles",
+    "img":"assets/img/flag-of-Seychelles.png"
+  },
+  {
+    "alpha2": "SD",
+    "alpha3": "SDN",
+    "countryCallingCodes": [
+      "+249"
+    ],
+    "currencies": [
+      "SDG"
+    ],
+    "emoji": "🇸🇩",
+    "ioc": "SUD",
+    "languages": [
+      "ara",
+      "eng"
+    ],
+    "name": "Sudan",
+    "img":"assets/img/flag-of-Sudan.png"
+  },
+  {
+    "alpha2": "SE",
+    "alpha3": "SWE",
+    "countryCallingCodes": [
+      "+46"
+    ],
+    "currencies": [
+      "SEK"
+    ],
+    "emoji": "🇸🇪",
+    "ioc": "SWE",
+    "languages": [
+      "swe"
+    ],
+    "name": "Sweden",
+    "img":"assets/img/flag-of-Sweden.png"
+  },
+  {
+    "alpha2": "SG",
+    "alpha3": "SGP",
+    "countryCallingCodes": [
+      "+65"
+    ],
+    "currencies": [
+      "SGD"
+    ],
+    "emoji": "🇸🇬",
+    "ioc": "SIN",
+    "languages": [
+      "eng",
+      "zho",
+      "msa",
+      "tam"
+    ],
+    "name": "Singapore",
+    "img":"assets/img/flag-of-Singapore.png"
+  },
+  
+  {
+    "alpha2": "SI",
+    "alpha3": "SVN",
+    "countryCallingCodes": [
+      "+386"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇸🇮",
+    "ioc": "SLO",
+    "languages": [
+      "slv"
+    ],
+    "name": "Slovenia",
+    "img":"assets/img/flag-of-Slovenia.png"
+  },
+ 
+  {
+    "alpha2": "SK",
+    "alpha3": "SVK",
+    "countryCallingCodes": [
+      "+421"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇸🇰",
+    "ioc": "SVK",
+    "languages": [
+      "slk"
+    ],
+    "name": "Slovakia",
+    "img":"assets/img/flag-of-Slovakia.png"
+  },
+  
+  {
+    "alpha2": "SM",
+    "alpha3": "SMR",
+    "countryCallingCodes": [
+      "+378"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "emoji": "🇸🇲",
+    "ioc": "SMR",
+    "languages": [
+      "ita"
+    ],
+    "name": "San Marino",
+    "img":"assets/img/flag-of-San-Marino.png"
+  },
+  {
+    "alpha2": "SN",
+    "alpha3": "SEN",
+    "countryCallingCodes": [
+      "+221"
+    ],
+    "currencies": [
+      "XOF"
+    ],
+    "emoji": "🇸🇳",
+    "ioc": "SEN",
+    "languages": [
+      "fra"
+    ],
+    "name": "Senegal",
+    "img":"assets/img/flag-of-Senegal.png"
+  },
+  {
+    "alpha2": "SO",
+    "alpha3": "SOM",
+    "countryCallingCodes": [
+      "+252"
+    ],
+    "currencies": [
+      "SOS"
+    ],
+    "emoji": "🇸🇴",
+    "ioc": "SOM",
+    "languages": [
+      "som"
+    ],
+    "name": "Somalia",
+    "img":"assets/img/flag-of-Somalia.png"
+  },
+  {
+    "alpha2": "SR",
+    "alpha3": "SUR",
+    "countryCallingCodes": [
+      "+597"
+    ],
+    "currencies": [
+      "SRD"
+    ],
+    "emoji": "🇸🇷",
+    "ioc": "SUR",
+    "languages": [
+      "nld"
+    ],
+    "name": "Suriname",
+    "img":"assets/img/flag-of-Suriname.png"
+  },
+
+  
+  {
+    "alpha2": "SV",
+    "alpha3": "SLV",
+    "countryCallingCodes": [
+      "+503"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "emoji": "🇸🇻",
+    "ioc": "ESA",
+    "languages": [
+      "spa"
+    ],
+    "name": "El Salvador",
+    "img":"assets/img/flag-of-El-Salvador.png"
+  },
+ 
+
+  {
+    "alpha2": "SZ",
+    "alpha3": "SWZ",
+    "countryCallingCodes": [
+      "+268"
+    ],
+    "currencies": [
+      "SZL"
+    ],
+    "emoji": "🇸🇿",
+    "ioc": "SWZ",
+    "languages": [
+      "eng",
+      "ssw"
+    ],
+    "name": "Swaziland",
+    "img":"assets/img/flag-of-Swaziland.png"
+  },
+  
+  
+  {
+    "alpha2": "TG",
+    "alpha3": "TGO",
+    "countryCallingCodes": [
+      "+228"
+    ],
+    "currencies": [
+      "XOF"
+    ],
+    "emoji": "🇹🇬",
+    "ioc": "TOG",
+    "languages": [
+      "fra"
+    ],
+    "name": "Togo",
+    "img":"assets/img/flag-of-Togo.png"
+  },
+  {
+    "alpha2": "TH",
+    "alpha3": "THA",
+    "countryCallingCodes": [
+      "+66"
+    ],
+    "currencies": [
+      "THB"
+    ],
+    "emoji": "🇹🇭",
+    "ioc": "THA",
+    "languages": [
+      "tha"
+    ],
+    "name": "Thailand",
+    "img":"assets/img/flag-of-Thailand.png"
+  },
+  {
+    "alpha2": "TJ",
+    "alpha3": "TJK",
+    "countryCallingCodes": [
+      "+992"
+    ],
+    "currencies": [
+      "TJS"
+    ],
+    "emoji": "🇹🇯",
+    "ioc": "TJK",
+    "languages": [
+      "tgk",
+      "rus"
+    ],
+    "name": "Tajikistan",
+    "img":"assets/img/flag-of-Tajikistan.png"
+  },
+  
+ 
+  {
+    "alpha2": "TM",
+    "alpha3": "TKM",
+    "countryCallingCodes": [
+      "+993"
+    ],
+    "currencies": [
+      "TMT"
+    ],
+    "emoji": "🇹🇲",
+    "ioc": "TKM",
+    "languages": [
+      "tuk",
+      "rus"
+    ],
+    "name": "Turkmenistan",
+    "img":"assets/img/flag-of-Turkmenistan.png"
+  },
+  {
+    "alpha2": "TN",
+    "alpha3": "TUN",
+    "countryCallingCodes": [
+      "+216"
+    ],
+    "currencies": [
+      "TND"
+    ],
+    "emoji": "🇹🇳",
+    "ioc": "TUN",
+    "languages": [
+      "ara"
+    ],
+    "name": "Tunisia",
+    "img":"assets/img/flag-of-Tunisia.png"
+  },
+  {
+    "alpha2": "TO",
+    "alpha3": "TON",
+    "countryCallingCodes": [
+      "+676"
+    ],
+    "currencies": [
+      "TOP"
+    ],
+    "emoji": "🇹🇴",
+    "ioc": "TGA",
+    "languages": [
+      "eng"
+    ],
+    "name": "Tonga",
+    "img":"assets/img/flag-of-Tonga.png"
+  },
+  
+  {
+    "alpha2": "TR",
+    "alpha3": "TUR",
+    "countryCallingCodes": [
+      "+90"
+    ],
+    "currencies": [
+      "TRY"
+    ],
+    "emoji": "🇹🇷",
+    "ioc": "TUR",
+    "languages": [
+      "tur"
+    ],
+    "name": "Turkey",
+    "img":"assets/img/flag-of-Turkey.png"
+  },
+ 
+  {
+    "alpha2": "TV",
+    "alpha3": "TUV",
+    "countryCallingCodes": [
+      "+688"
+    ],
+    "currencies": [
+      "AUD"
+    ],
+    "emoji": "🇹🇻",
+    "ioc": "TUV",
+    "languages": [
+      "eng"
+    ],
+    "name": "Tuvalu",
+    "img":"assets/img/flag-of-Tuvalu.png"
+  },
+  {
+    "alpha2": "TW",
+    "alpha3": "TWN",
+    "countryCallingCodes": [
+      "+886"
+    ],
+    "currencies": [
+      "TWD"
+    ],
+    "emoji": "🇹🇼",
+    "ioc": "TPE",
+    "languages": [
+      "zho"
+    ],
+    "name": "Taiwan",
+    "img":"assets/img/flag-of-Taiwan.png"
+  },
+  
+  {
+    "alpha2": "UA",
+    "alpha3": "UKR",
+    "countryCallingCodes": [
+      "+380"
+    ],
+    "currencies": [
+      "UAH"
+    ],
+    "emoji": "🇺🇦",
+    "ioc": "UKR",
+    "languages": [
+      "ukr",
+      "rus"
+    ],
+    "name": "Ukraine",
+    "img":"assets/img/flag-of-Ukraine.png"
+  },
+  {
+    "alpha2": "UG",
+    "alpha3": "UGA",
+    "countryCallingCodes": [
+      "+256"
+    ],
+    "currencies": [
+      "UGX"
+    ],
+    "emoji": "🇺🇬",
+    "ioc": "UGA",
+    "languages": [
+      "eng",
+      "swa"
+    ],
+    "name": "Uganda",
+    "img":"assets/img/flag-of-Uganda.png"
+  },
+  {
+    "alpha2": "UK",
+    "alpha3": "",
+    "countryCallingCodes": [],
+    "currencies": [
+      "GBP"
+    ],
+    "emoji": "",
+    "ioc": "",
+    "languages": [
+      "eng",
+      "cor",
+      "gle",
+      "gla",
+      "cym"
+    ],
+    "name": "United Kingdom",
+   
+	 "img":"assets/img/flag-of-United-Kingdom.png"
+  },
+  
+  {
+    "alpha2": "US",
+    "alpha3": "USA",
+    "countryCallingCodes": [
+      "+1"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "emoji": "🇺🇸",
+    "ioc": "USA",
+    "languages": [
+      "eng"
+    ],
+    "name": "United States",
+    "img":"assets/img/flag-of-United-States-of-America.png"
+  },
+  {
+    "alpha2": "UY",
+    "alpha3": "URY",
+    "countryCallingCodes": [
+      "+598"
+    ],
+    "currencies": [
+      "UYU",
+      "UYI"
+    ],
+    "emoji": "🇺🇾",
+    "ioc": "URU",
+    "languages": [
+      "spa"
+    ],
+    "name": "Uruguay",
+    "img":"assets/img/flag-of-Uruguay.png"
+  },
+  {
+    "alpha2": "UZ",
+    "alpha3": "UZB",
+    "countryCallingCodes": [
+      "+998"
+    ],
+    "currencies": [
+      "UZS"
+    ],
+    "emoji": "🇺🇿",
+    "ioc": "UZB",
+    "languages": [
+      "uzb",
+      "rus"
+    ],
+    "name": "Uzbekistan",
+    "img":"assets/img/flag-of-Uzbekistan.png"
+  },
+  
+  
+  {
+    "alpha2": "VE",
+    "alpha3": "VEN",
+    "countryCallingCodes": [
+      "+58"
+    ],
+    "currencies": [
+      "VEF"
+    ],
+    "emoji": "🇻🇪",
+    "ioc": "VEN",
+    "languages": [
+      "spa"
+    ],
+    "name": "Venezuela, Bolivarian Republic Of",
+    "img":"assets/img/flag-of-Venezuela.png"
+  },
+  
+ 
+ 
+  {
+    "alpha2": "VU",
+    "alpha3": "VUT",
+    "countryCallingCodes": [
+      "+678"
+    ],
+    "currencies": [
+      "VUV"
+    ],
+    "emoji": "🇻🇺",
+    "ioc": "VAN",
+    "languages": [
+      "bis",
+      "eng",
+      "fra"
+    ],
+    "name": "Vanuatu",
+    "img":"assets/img/flag-of-Vanuatu.png"
+  },
+ 
+  
+  {
+    "alpha2": "WS",
+    "alpha3": "WSM",
+    "countryCallingCodes": [
+      "+685"
+    ],
+    "currencies": [
+      "WST"
+    ],
+    "emoji": "🇼🇸",
+    "ioc": "SAM",
+    "languages": [
+      "eng",
+      "smo"
+    ],
+    "name": "Samoa",
+    "img":"assets/img/flag-of-Samoa.png"
+  },
+  
+ 
+  {
+    "alpha2": "YE",
+    "alpha3": "YEM",
+    "countryCallingCodes": [
+      "+967"
+    ],
+    "currencies": [
+      "YER"
+    ],
+    "emoji": "🇾🇪",
+    "ioc": "YEM",
+    "languages": [
+      "ara"
+    ],
+    "name": "Yemen",
+    "img":"assets/img/flag-of-Yemen.png"
+  },
+ 
+  
+  {
+    "alpha2": "ZA",
+    "alpha3": "ZAF",
+    "countryCallingCodes": [
+      "+27"
+    ],
+    "currencies": [
+      "ZAR"
+    ],
+    "emoji": "🇿🇦",
+    "ioc": "RSA",
+    "languages": [
+      "afr",
+      "eng",
+      "nbl",
+      "som",
+      "tso",
+      "ven",
+      "xho",
+      "zul"
+    ],
+    "name": "South Africa",
+    "img":"assets/img/flag-of-South-Africa.png"
+  },
+  {
+    "alpha2": "ZM",
+    "alpha3": "ZMB",
+    "countryCallingCodes": [
+      "+260"
+    ],
+    "currencies": [
+      "ZMW"
+    ],
+    "emoji": "🇿🇲",
+    "ioc": "ZAM",
+    "languages": [
+      "eng"
+    ],
+    "name": "Zambia",
+    "img":"assets/img/flag-of-Zambia.png"
+  },
+  
+  {
+    "alpha2": "ZW",
+    "alpha3": "ZWE",
+    "countryCallingCodes": [
+      "+263"
+    ],
+    "currencies": [
+      "USD",
+      "ZAR",
+      "BWP",
+      "GBP",
+      "EUR"
+    ],
+    "emoji": "🇿🇼",
+    "ioc": "ZIM",
+    "languages": [
+      "eng",
+      "sna",
+      "nde"
+    ],
+    "name": "Zimbabwe",
+    "img":"assets/img/flag-of-Zimbabwe.png"
   }
-
-
-
-
-
-
 ]

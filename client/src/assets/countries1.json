@@ -1,0 +1,177 @@
+[
+  {
+    "alpha2": "PK",
+    "alpha3": "Rs",
+    "countryCallingCodes": [
+      "PAK"
+    ],
+    "currencies": [
+      "PKR"
+    ],
+    "emoji": "PKR",
+    "ioc": "PAK",
+    "languages": [
+      "assets/image/pakistan.jpg" 
+    ],
+    "name": "Pakistan",
+    "status": "assigned"
+  },
+  {
+    "alpha2": "ZA",
+    "alpha3": "R",
+    "countryCallingCodes": [
+      "ZAF"
+    ],
+    "currencies": [
+      "ZAR"
+    ],
+    "emoji": "ZAR",
+    "ioc": "RSA",
+    "languages": [
+      "assets/image/southafrica.png" 
+    ],
+    "name": "South Africa",
+    "status": "assigned"
+  },
+  {
+    "alpha2": "IN",
+    "alpha3": " INR",
+    "countryCallingCodes": [
+      "IND"
+    ],
+    "currencies": [
+      ""
+    ],
+    "emoji": "\u20B9",
+    "ioc": "IND",
+    "languages": [
+      "assets/image/india.gif" 
+    ],
+    "name": "India",
+    "status": "assigned"
+  },
+  {
+    "alpha2": "SA",
+    "alpha3": "SR",
+    "countryCallingCodes": [
+      "SAU"
+    ],
+    "currencies": [
+      "SAR"
+    ],
+    "emoji": "ر.س",
+    "ioc": "KSA",
+    "languages": [
+      "assets/image/saudi_arabia.gif"
+    ],
+    "name": "Saudi Arabia",
+    "status": "assigned"
+  },
+  
+  {
+    "alpha2": "AE",
+    "alpha3": "DH",
+    "countryCallingCodes": [
+      "ARE"
+    ],
+    "currencies": [
+      "AED"
+    ],
+    "emoji": "\u062f.\u0625",
+    "ioc": "UAE",
+    "languages": 
+      "assets/image/united_arab_emirates.gif"
+    ,
+    "name": "United Arab Emirates",
+    "status": "assigned"
+  },
+  {
+    "alpha2": "AF",
+    "alpha3": "AFG",
+    "countryCallingCodes": [
+      "+93"
+    ],
+    "currencies": [
+      "AFN"
+    ],
+    "emoji": "AFN",
+    "ioc": "AFG",
+    "languages": [
+      "assets/image/afghanistan.png"
+    ],
+    "name": "Afghanistan",
+    "status": "assigned"
+  },
+  
+   
+  {
+    "alpha2": "AI",
+    "alpha3": "AFI",
+    "countryCallingCodes": [],
+    "currencies": [],
+    "ioc": "",
+    "languages": [
+      "assets/image/FrenchAfarandIssas.jpg"
+    ],
+    "name": "French Afar and Issas",
+    "status": "deleted"
+  }, 
+   
+  {
+    "alpha2": "AU",
+    "alpha3": "AUS",
+    "countryCallingCodes": [
+      "+61"
+    ],
+    "currencies": [
+      "AUD"
+    ],
+    "emoji": "$",
+    "ioc": "AUS",
+    "languages": [
+      "assets/image/australia.gif"
+    ],
+    "name": "Australia",
+    "status": "assigned"
+  },
+  {
+    "alpha2": "BD",
+    "alpha3": "BGD",
+    "countryCallingCodes": [
+      "+880"
+    ],
+    "currencies": [
+      "BDT"
+    ],
+    "emoji": "tk",
+    "ioc": "BAN",
+    "languages": [
+      "assets/image/bangladesh.jpg"
+    ],
+    "name": "Bangladesh",
+    "status": "assigned"
+  },
+  {
+    "alpha2": "BH",
+    "alpha3": "BHR",
+    "countryCallingCodes": [
+      "+973"
+    ],
+    "currencies": [
+      "BHD"
+    ],
+    "emoji": "BD",
+    "ioc": "BRN",
+    "languages": [
+      "assets/image/bharain.png"
+    ],
+    "name": "Bahrain",
+    "status": "assigned"
+  }
+
+
+
+
+
+
+]
